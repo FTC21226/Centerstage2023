@@ -22,7 +22,10 @@ public class MecanumWheels extends LinearOpMode {
 
         waitForStart();
 
-        //motorFrontRight.setPower(0.5);
+        /*
+        Commented the code
+        motorFrontRight.setPower(0.5);
+         */
 
         if (isStopRequested()) return;
 
